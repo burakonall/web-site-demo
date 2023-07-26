@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iletisim</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">SiteLogo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hakkında.html">Hakkında</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="ucretlendirme.html" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Paketlerimiz
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="paket1.html">1.Paket</a>
+                        <a class="dropdown-item" href="paket2.html">2.Paket</a>
+                        <a class="dropdown-item" href="paket3.html">3.Paket</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+
+        <h2 class="my-4 text-center">İletişim Formu</h2>
+        <form>
+            <div class="row my-4">
+                <div class="col">
+                    <label for="isim">Ad</label>
+                    <input type="text" class="form-control" id="isim" placeholder="İsim">
+                </div>
+                <div class="col">
+                    <label for="soyisim">Soyad</label>
+                    <input type="text" class="form-control" id="soyisim" placeholder="Soyisim">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col form-group">
+                    <label for="exampleFormControlInput1">E-posta</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="ornek@gmail.com">
+                </div>
+                <div class="col">
+                    <label for="telefon">Telefon Numarası</label>
+                    <input type="text" class="form-control" id="telefon" placeholder="Telefon Numarası">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Hangi Konuda İletişime İhtiyaç Duyuyorsunuz?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1"
+                    placeholder="Bizimle iletişim kurmak istediğiniz konu hakkında bilgi veriniz." rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-success btn-block" name="Gönder" id="#" value="Formu Gönder">
+                <input type="reset" class="btn btn-danger btn-block" name="Temizle" id="#" value="Formu Temizle">
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
